@@ -26,5 +26,8 @@ void lista2(){
     print('$value R $key');
   });
 
-  
+  List<int> numeros = [1, 5, 18, 66, 78, 19, 26];
+  var pares = numeros.where((numero) => numero % 2 == 0).toList();       //ex9
+  print(pares);
+
 }
