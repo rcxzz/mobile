@@ -1,0 +1,1 @@
+enum Naipe { copas, ouro, espada, paus }
